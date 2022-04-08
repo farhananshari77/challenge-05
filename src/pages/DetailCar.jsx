@@ -107,6 +107,7 @@ const DetailCar = () => {
                                     <span className='col-4'>Total</span>
                                     <span className="col-8 mb-2 detail-font-bold" key={detailCar.id}>Rp. {detailCar.price} / hari</span>
                                 </div>
+                                <button className='form-control btn my-2 my-sm-0 text-light color-btn-green'>Lanjutkan Pembayaran</button>
                             </div>
                         </div>
                     </div>
