@@ -19,6 +19,7 @@ const DetailCar = () => {
     let i = -1;
 
     for (let j = 0; j < dataListCar.length; j++) {
+        // eslint-disable-next-line
         if (dataListCar[j].id == idCar) {
         i = j;
         }
